@@ -78,5 +78,7 @@ public class Main {
         System.out.println(BLUE_BOLD + r1.tweet());
 
 
+
+
     }
 }
