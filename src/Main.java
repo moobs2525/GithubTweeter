@@ -28,51 +28,55 @@ public class Main {
         System.out.println(RED_BOLD + "Printing super interesting tweets:");
 
         //Add your Group tweet classes and call your tweets:
-        System.out.println( BLACK_BOLD + new GroupExtraordinaire().tweet() );
-        System.out.println( RED_BOLD + new GroupTweet().tweet() );
-        System.out.println( BLACK_BOLD + new GroupTweet().tweet2() );
+        System.out.println(BLACK_BOLD + new GroupExtraordinaire().tweet());
+        System.out.println(RED_BOLD + new GroupTweet().tweet());
+        System.out.println(BLACK_BOLD + new GroupTweet().tweet2());
 
 
         GroupGenZ ggz = new GroupGenZ();
         System.out.println(ggz.tweet());
 
         GroupTweet gt = new GroupTweet();
-        System.out.println(PURPLE_BOLD+ggz.tweet());
-        System.out.println(RED_BOLD+ggz.tweet());
+        System.out.println(PURPLE_BOLD + ggz.tweet());
+        System.out.println(RED_BOLD + ggz.tweet());
 
         //GroupTweet gt = new GroupTweet(); //Merge error ?
-        System.out.println(YELLOW_BOLD+gt.tweet());
+        System.out.println(YELLOW_BOLD + gt.tweet());
 
-        
+
         GroupBoomer gb = new GroupBoomer();
-        System.out.println(YELLOW_BOLD+gb.tweet());
+        System.out.println(YELLOW_BOLD + gb.tweet());
 
 
         GroupGenAlpha gga = new GroupGenAlpha();
-        System.out.println(PURPLE_BOLD+gga.tweet());
+        System.out.println(PURPLE_BOLD + gga.tweet());
 
 
         NFJTweet NFJ = new NFJTweet();
-        System.out.println(GREEN_BOLD+NFJ.tweet());
+        System.out.println(GREEN_BOLD + NFJ.tweet());
 
         MB mb = new MB();
-        System.out.println(YELLOW_BOLD+mb.tweet());
+        System.out.println(YELLOW_BOLD + mb.tweet());
 
-        BoomerHumor bh= new BoomerHumor();
-        System.out.println( PURPLE_BOLD+bh.tweet());
+        BoomerHumor bh = new BoomerHumor();
+        System.out.println(PURPLE_BOLD + bh.tweet());
 
 
         MyTweet newTweet = new MyTweet();
-        System.out.println(PURPLE_BOLD+newTweet.tweet());
+        System.out.println(PURPLE_BOLD + newTweet.tweet());
 
-         GroupJakob JJ = new GroupJakob();
-        System.out.println(GREEN_BOLD+JJ.tweet());
+        GroupJakob JJ = new GroupJakob();
+        System.out.println(GREEN_BOLD + JJ.tweet());
 
         GroupB gb2 = new GroupB();
-        System.out.println(YELLOW_BOLD+gb2.tweet());
+        System.out.println(YELLOW_BOLD + gb2.tweet());
 
         Frank frank = new Frank();
-        System.out.println(CYAN_BOLD+frank.tweet());
+        System.out.println(CYAN_BOLD + frank.tweet());
+
+        row1 r1 = new row1();
+        System.out.println(BLUE_BOLD + r1.tweet());
+
 
     }
 }
